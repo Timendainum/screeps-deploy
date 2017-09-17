@@ -1,0 +1,17 @@
+{
+  "name": "screeps-deploy",
+  "version": "1.0.0",
+  "description": "Deploys code for screeps.",
+  "main": "screeps-deploy.js",
+  "scripts": {},
+  "author": "Timendainum",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Timendainum/screeps-deploy"
+  },
+  "dependencies": {
+    "async": "^2.5.0",
+    "lodash": "^4.17.4"
+  }
+}
