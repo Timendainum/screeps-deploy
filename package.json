@@ -1,8 +1,11 @@
 {
   "name": "screeps-deploy",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A dirst simple app that deploys code to Screeps.com.",
   "main": "app.js",
+  "engines": {
+    "node": ">=8.5.0"
+  },
   "scripts": {
     "start": "node app.js",
     "test": "node app.js test"
