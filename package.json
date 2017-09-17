@@ -1,7 +1,7 @@
 {
   "name": "screeps-deploy",
-  "version": "1.0.2",
-  "description": "Deploys code for screeps.",
+  "version": "1.0.3",
+  "description": "A dirst simple app that deploys code to Screeps.com.",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
