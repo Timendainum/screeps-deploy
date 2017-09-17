@@ -13,10 +13,8 @@ let data = {
 };
 
 let safenFilename = function (rawName) {
-	if (rawName !== undefined && rawName.length > 3) {
-		if (rawName.substring(rawName.length - 3, rawName.length) === ".js") {
-			return rawName.substring(0, rawName.length - 3);
-		}
+	if (rawName !== undefined && rawName.length > 3 && rawName.substring(rawName.length - 3, rawName.length) === ".js") {
+		return rawName.substring(0, rawName.length - 3);
 	}
 	return undefined;
 };
