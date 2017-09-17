@@ -135,7 +135,7 @@ function getConfigPaths() {
 
 	paths.push(path.join(__dirname, 'config.js'));
 
-	console.log(process.platform);
+	//console.log(process.platform);
 
 	if (process.platform === "linux" || process.platform === "darwin") {
 		create = `${process.env.HOME}/.${appname}`;
