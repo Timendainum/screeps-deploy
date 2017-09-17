@@ -1,6 +1,6 @@
 {
   "name": "screeps-deploy",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A dirt simple app that deploys code to Screeps.com.",
   "main": "app.js",
   "engines": {
