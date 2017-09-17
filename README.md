@@ -2,7 +2,7 @@
 
 This simple node app deploys code for screeps.
 
-You will need to create a config.json file that looks something like this:
+You will need to create a config.js file that looks something like this:
 
 ```
 {
