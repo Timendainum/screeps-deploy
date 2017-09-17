@@ -1,0 +1,5 @@
+{
+  userName: "UserFoo",
+  password: "passBar",
+  path: "/Users/screepsplayer/projects/screeps",
+}

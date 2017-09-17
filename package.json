@@ -2,8 +2,14 @@
   "name": "screeps-deploy",
   "version": "1.0.2",
   "description": "Deploys code for screeps.",
-  "main": "screeps-deploy.js",
-  "scripts": {},
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node app.js test"
+  },
+  "bin": {
+    "screeps-deploy": "app.js"
+  },
   "author": "Timendainum",
   "license": "ISC",
   "repository": {
