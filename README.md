@@ -9,8 +9,11 @@ You will need to create a config.js file that looks something like this:
   userName: "UserFoo",
   password: "passBar",
   path: "/Users/screepsplayer/projects/screeps",
+  branch: "default",
 }
 ```
+
+branch refers to which Screeps branch you want to deploy to.
 
 Output looks something like this:
 

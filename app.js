@@ -32,7 +32,7 @@ else
 function start() {
 	// lets get it done...
 	let data = {
-		branch: "default",
+		branch: config.branch,
 		modules: {}
 	};
 
