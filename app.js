@@ -113,9 +113,6 @@ function setup() {
 	let path = getConfigPaths().create;
 	if (path) {
 		fs.writeFileSync(path, fs.readFileSync(__dirname + '/config.js.sample'));
-		editor(path, (code) => {
-			if (!code) start()
-		})
 	} else {
 		console.log('Please setup config.js before running.');
 		console.log(`Valid paths for your platform (${process.platform}):`);
