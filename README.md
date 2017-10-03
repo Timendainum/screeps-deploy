@@ -2,6 +2,10 @@
 
 This simple node app deploys code for screeps.
 
+Install globally from NPM using:
+`npm install -g screeps-deploy`
+
+
 You will need to create a config.js file that looks something like this:
 
 ```
